@@ -53,3 +53,12 @@ Remember that the bot needs the authentication token to function properly.
 
 You can edit them by just changing the command name on the "github.py" file. Ex: for ealatest, search @client.command() async def ealatest(ctx): line and change ealatest to whatever you want.
 
+## How to run the bot on local (your PC)
+
+Download the .zip file from the releases section. Extract the files and place them inside a new folder (we do this for more organization and ease of work). Click on the path bar where you have the folder, delete the path and type cmd. 
+
+This will open cmd directly with the path already set up.  Then type yuzuea-env\Scripts\activate.bat 
+
+Once typed, press Enter. The .bat will then be activated. To get the bot working, type python github.py and press Enter again. That's it, now your bot will run locally on your PC.
+
+If you have any questions or problems, please contact me ;).
