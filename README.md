@@ -1,9 +1,9 @@
 # Yuzu Early Acess (Pineapple) Discord Bot
-A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in Python by me (Stevens#5210).
+A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in Python by me (Stevens#5210). Here's an [example](https://i.gyazo.com/53a43ebdb44b79f3ad5240b8b40add08.png)
 
 Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot). Do you want to support me?. Here is my [Ko-fi](https://ko-fi.com/stevenss)
 
-If you also want a changelog channel, join the [Yuzu Discord Server](https://discord.gg/yuzu-emu), go to the yuzu-updates section and click Follow. Then select the channel where you want the changelogs to be published and you're done.
+If you also want a changelog channel, join the [Yuzu Discord Server](https://discord.gg/yuzu-emu), go to the yuzu-updates section and click Follow. Then select the channel where you want the changelogs to be published and you're done. Also you can click on the [red square zone](https://i.gyazo.com/23227136e9e148fd745c18a1e095fd2f.png) to see the code of the commit and have an idea of the changes.
 
 ## How to set up the bot on your Discord server
 
