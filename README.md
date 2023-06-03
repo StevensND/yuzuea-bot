@@ -11,3 +11,41 @@ Invite me to your server by clicking [here](https://discord.com/api/oauth2/autho
 4. Find the channel where you want the bot to publish the notifications, right click on it and then click on "Copy channel ID". This will give us the channel ID (example: 1113061947621986138).
 5. In the channel type the following command: !setnotificationchannel + the ID of the channel you copied earlier (don't include the +). Example: !setnotificationchannel 1113061947621986138
 6. Done. The bot will publish when an update is released.
+
+## How to set up your bot in the cloud
+
+Would you like to have your bot hosted by yourself in the cloud and not depend on my host?. If you are interested, read on. To do so, we will need a host that allows us to host our bot in the cloud. In my case I will use [Discloud](https://discloudbot.com/).
+
+1. Once registered and on the dashboard, click on +Add App. From here, we will drag the .zip file that you can download in the Releases section, but WARNING: For make it work properly, you will have to make some changes.
+
+2. Edit the "github.py" file with Notepad or Notepad++. From here, you will edit the TOKEN = field and enter your personal TOKEN. To get one, we will access the [Discord developer portal](https://discord.com/developers/applications).
+
+3. We will create a new application. Enter the name, accept the terms and then click Create. Go to the Bot section and click on Reset Token. The token that you need will appear. Copy and paste it into the field mentioned previously.
+
+4. Then you will go to OAuth2, General. In the Default Authorization Link, Authorization Method section click and select In-app Authorization. In scopes select: bot. Add the permissions that you want and save the changes. Then go to URL Generator, in scopes choose bot and in permissions the same as you chose before. Now you will get a URL, copy it and save it. This URL will be the one you will need to invite the bot to your server.
+
+5. Check again the "github.py" file, check that you have placed the TOKEN and you are done. Also, you will need to edit the "discloud.config" file. Here you will only have to add a name to the bot for Discloud to identify it.
+
+Once these steps are done, make a .zip file and make sure that the zip has all the necessary files. Then go back to Discloud and drag the .zip file. Discloud will do the rest for you. If you have done everything correctly, you will see a green light in Discloud indicating that the bot is working. Check it also in Discord.
+
+## Bot commands
+
+Here are the commands available in the bot along with their functions:
+
+1. `!eastatus`: Displays a message indicating that the bot is running and operational.
+
+2. `!ealatest`: Checks the latest version available from the repository on GitHub and displays the version number.
+
+3. `!eareleases`: Displays a message with a link to all the versions available in the GitHub repository.
+
+4. `!setnotificationchannel <Channel_ID>`: Sets the notification channel where new version notifications will be sent. You must provide the channel ID as an argument.
+
+In addition to these commands, the bot has the following functions:
+
+- Periodically checks for new versions of the repository on GitHub every 10 minutes.
+- Detects if an Internet connection is available before checking.
+- Sends a message to the notification channel if a new version is found available.
+- Print messages to the console when the bot connects or disconnects from Discord.
+
+Remember that the bot needs the authentication token to function properly.
+
