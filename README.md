@@ -1,5 +1,5 @@
 # Yuzu Early Acess (Pineapple) Discord Bot
-A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in Python by me (Stevens#5210). Here's an [example](https://i.gyazo.com/53a43ebdb44b79f3ad5240b8b40add08.png)
+A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in [Python](https://www.python.org/) by me (Stevens#5210). Here's an [example](https://i.gyazo.com/53a43ebdb44b79f3ad5240b8b40add08.png)
 
 Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot). Do you want to support me?. Here is my [Ko-fi](https://ko-fi.com/stevenss)
 
@@ -26,7 +26,9 @@ Would you like to have your bot hosted by yourself in the cloud and not depend o
 
 4. Then you will go to OAuth2, General. In the Default Authorization Link, Authorization Method section click and select In-app Authorization. In scopes select: bot. Add the permissions that you want and save the changes. Then go to URL Generator, in scopes choose bot and in permissions the same as you chose before. Now you will get a URL, copy it and save it. This URL will be the one you will need to invite the bot to your server.
 
-5. Check again the "github.py" file, check that you have placed the TOKEN and you are done. Also, you will need to edit the "discloud.config" file. Here you will only have to add a name to the bot for Discloud to identify it.
+5. If the bot is having problems and is not publishing: Click on Bot, then under Privileged Gateway Intents and turn on all available options.
+
+6. Check again the "github.py" file, check that you have placed the TOKEN and you are done. Also, you will need to edit the "discloud.config" file. Here you will only have to add a name to the bot for Discloud to identify it.
 
 You can also edit the frequency at which the bot checks for new updates (right now it is set to every 10 minutes) on the "github.py" file.
 
@@ -56,6 +58,8 @@ Remember that the bot needs the authentication token to function properly.
 You can edit them by just changing the command name on the "github.py" file. Ex: for ealatest, search @client.command() async def ealatest(ctx): line and change ealatest to whatever you want.
 
 ## How to run the bot on local (your PC)
+
+Don't forget that you need [Python](https://www.python.org/).
 
 Download the .zip file from the releases section. Extract the files and place them inside a new folder (we do this for more organization and ease of work). Click on the path bar where you have the folder, delete the path and type cmd. 
 
