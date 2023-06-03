@@ -1,5 +1,5 @@
 # Yuzu Early Acess (Pineapple) Discord Bot
-A Discord Bot that notifies the latest updates from Yuzu EA (Pineapple). Developed in Python.
+A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in Python.
 
 Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot).
 
