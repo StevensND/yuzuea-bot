@@ -1,7 +1,7 @@
 # Yuzu Early Acess (Pineapple) Discord Bot
 A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https://github.com/pineappleEA/pineapple-src/releases). Developed in Python by me (Stevens#5210).
 
-Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot).
+Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot). Do you want to support me?. Here is my [Ko-fi](https://ko-fi.com/stevenss)
 
 ## How to set up the bot on your Discord server
 
@@ -18,13 +18,15 @@ Would you like to have your bot hosted by yourself in the cloud and not depend o
 
 1. Download the zip file from [releases](https://github.com/StevensND/yuzuea-bot/releases) and register in Discloud. Once registered and on the dashboard, click on +Add App. From here, we will drag the .zip file that you can download in the Releases section, but WARNING: For make it work properly, you will have to make some changes.
 
-2. Edit the "github.py" file with Notepad or Notepad++. From here, you will edit the TOKEN = field and enter your personal TOKEN. To get one, we will access the [Discord developer portal](https://discord.com/developers/applications).
+2. Extract the .zip file. Edit the "github.py" file with Notepad or Notepad++. From here, you will edit the TOKEN = field and enter your personal TOKEN. To get one, we will access the [Discord developer portal](https://discord.com/developers/applications).
 
 3. We will create a new application. Enter the name, accept the terms and then click Create. Go to the Bot section and click on Reset Token. The token that you need will appear. Copy and paste it into the field mentioned previously.
 
 4. Then you will go to OAuth2, General. In the Default Authorization Link, Authorization Method section click and select In-app Authorization. In scopes select: bot. Add the permissions that you want and save the changes. Then go to URL Generator, in scopes choose bot and in permissions the same as you chose before. Now you will get a URL, copy it and save it. This URL will be the one you will need to invite the bot to your server.
 
 5. Check again the "github.py" file, check that you have placed the TOKEN and you are done. Also, you will need to edit the "discloud.config" file. Here you will only have to add a name to the bot for Discloud to identify it.
+
+You can also edit the frequency at which the bot checks for new updates (right now it is set to every 10 minutes) on the "github.py" file.
 
 Once these steps are done, make a .zip file and make sure that the zip has all the necessary files. Then go back to Discloud and drag the .zip file. Discloud will do the rest for you. If you have done everything correctly, you will see a green light in Discloud indicating that the bot is working. Check it also in Discord.
 
@@ -48,4 +50,6 @@ In addition to these commands, the bot has the following functions:
 - Print messages to the console when the bot connects or disconnects from Discord.
 
 Remember that the bot needs the authentication token to function properly.
+
+You can edit them by just changing the command name on the "github.py". Ex: for ealatest, search @client.command() async def ealatest(ctx): line and change ealatest to whatever you want.
 
