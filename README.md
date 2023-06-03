@@ -51,5 +51,5 @@ In addition to these commands, the bot has the following functions:
 
 Remember that the bot needs the authentication token to function properly.
 
-You can edit them by just changing the command name on the "github.py". Ex: for ealatest, search @client.command() async def ealatest(ctx): line and change ealatest to whatever you want.
+You can edit them by just changing the command name on the "github.py" file. Ex: for ealatest, search @client.command() async def ealatest(ctx): line and change ealatest to whatever you want.
 
