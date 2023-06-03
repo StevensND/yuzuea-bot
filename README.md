@@ -3,6 +3,8 @@ A Discord Bot that notifies the latest updates from [Yuzu EA (Pineapple)](https:
 
 Invite me to your server by clicking [here](https://discord.com/api/oauth2/authorize?client_id=1114600548499476590&permissions=8&scope=bot). Do you want to support me?. Here is my [Ko-fi](https://ko-fi.com/stevenss)
 
+If you also want a changelog channel, join the [Yuzu Discord Server](https://discord.gg/yuzu-emu), go to the yuzu-updates section and click Follow. Then select the channel where you want the changelogs to be published and you're done.
+
 ## How to set up the bot on your Discord server
 
 1. Invite the bot.
