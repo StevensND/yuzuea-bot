@@ -67,4 +67,4 @@ This will open cmd directly with the path already set up.  Then type yuzuea-env\
 
 Once typed, press Enter. The .bat will then be activated. To get the bot working, type python github.py and press Enter again. That's it, now your bot will run locally on your PC.
 
-If you have any questions or problems, please contact me ;).
+If you have any questions or problems, please contact me on Reddit or Discord ;).
