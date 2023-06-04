@@ -11,14 +11,14 @@ If you also want a changelog channel, join the [Yuzu Discord Server](https://dis
 2. Once the bot is invited, make sure it has the necessary permissions to be able to publish in a channel (by default and to avoid annoyances, I have set the bot to have administrator permissions). This way it will be able to publish in the channel without problems.
 3. Go to Discord Settings. Then go to Advanced and enable "Developer Mode" (Make sure the option is green) . This will allow us to get the channel ID, which we will use next.
 4. Find the channel where you want the bot to publish the notifications, right click on it and then click on "Copy channel ID". This will give us the channel ID (example: 1113061947621986138).
-5. In the channel type the following command: !setnotificationchannel + the ID of the channel you copied earlier (don't include the +). Example: !setnotificationchannel 1113061947621986138
+5. In the channel type the following command: !setnotificationchannel + the ID of the channel (**Be sure it's Channel ID, not Server ID**) you copied earlier (don't include the +). Example: !setnotificationchannel 1113061947621986138
 6. Done. The bot will publish when an update is released.
 
 ## How to set up your bot in the cloud
 
 Would you like to have your bot hosted by yourself in the cloud and not depend on my host?. If you are interested, read on. To do so, we will need a host that allows us to host our bot in the cloud. In my case I will use [Discloud](https://discloudbot.com/).
 
-1. Download the zip file from [releases](https://github.com/StevensND/yuzuea-bot/releases) and register in Discloud. Once registered and on the dashboard, click on +Add App. From here, we will drag the .zip file that you can download in the Releases section, but WARNING: For make it work properly, you will have to make some changes.
+1. Download the zip file from [releases](https://github.com/StevensND/yuzuea-bot/releases) and register in Discloud. Once registered and on the dashboard, click on +Add App. From here, we will drag the .zip file that you can download in the Releases section, but **WARNING**: For make it work properly, you will have to make some changes.
 
 2. Extract the .zip file. Edit the "github.py" file with Notepad or Notepad++. From here, you will edit the TOKEN = field and enter your personal TOKEN. To get one, we will access the [Discord developer portal](https://discord.com/developers/applications).
 
